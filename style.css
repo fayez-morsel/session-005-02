@@ -81,3 +81,53 @@ nav>ul>li:hover{
     color: black;
     
 }
+
+#profile-img{
+    border-radius: 50%;
+}
+
+.head-section1{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 20px 0;
+    gap: 5px;
+}
+
+.in{
+    color: #7a7a7a;
+    padding-bottom: 1px;
+    font-size: 14px;
+}
+
+.ma{
+    font-size: 16px;
+    color: #525151;
+}
+
+.body-section{
+    display: flex;
+
+}
+
+.of{
+    font-size: 25px;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.or{
+    color: #7a7a7a;
+    padding-bottom: 5px;
+}
+
+.body-section1-left-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-section1-left-bottom-1>ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: #525151;
+}
