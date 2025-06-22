@@ -47,3 +47,37 @@ header{
 }
 
 
+article{
+    width: 70%;
+    height: auto;
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    border-right: solid 1px rgb(230, 230, 230);
+}
+
+.article{
+    width: auto;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-bottom: solid 1px rgb(230, 230, 230);
+    color: #7a7a7a;
+}
+
+nav>ul>li{
+    padding: 30px 10px 20px 10px;
+    color: #7a7a7a;
+    height: 66px;
+    transition: all 0.3s ease-in;
+    cursor:default;
+}
+
+nav>ul>li:hover{
+    border-bottom: solid 1px black;
+    color: black;
+    
+}
