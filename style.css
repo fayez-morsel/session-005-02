@@ -81,3 +81,25 @@ nav>ul>li:hover{
     color: black;
     
 }
+
+#profile-img{
+    border-radius: 50%;
+}
+
+.head-section1{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 20px 0;
+    gap: 5px;
+}
+
+.in{
+    color: #7a7a7a;
+    padding-bottom: 1px;
+    font-size: 14px;
+}
+
+.ma{
+    font-size: 16px;
+    color: #525151;
+}
