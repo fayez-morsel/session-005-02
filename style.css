@@ -103,3 +103,31 @@ nav>ul>li:hover{
     font-size: 16px;
     color: #525151;
 }
+
+.body-section{
+    display: flex;
+
+}
+
+.of{
+    font-size: 25px;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.or{
+    color: #7a7a7a;
+    padding-bottom: 5px;
+}
+
+.body-section1-left-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-section1-left-bottom-1>ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: #525151;
+}
