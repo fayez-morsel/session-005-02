@@ -104,6 +104,11 @@ nav>ul>li:hover{
     color: #525151;
 }
 
+.maa{
+    font-size: 16px;
+    color: #302f2f;
+}
+
 .body-section{
     display: flex;
 
@@ -162,4 +167,14 @@ nav>ul>li:hover{
 
 .section1{
     border-bottom: rgb(230, 230, 230) solid 1px;
+}
+
+aside{
+    padding: 30px 20px 0 20px;
+    width: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
 }
