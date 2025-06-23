@@ -123,11 +123,43 @@ nav>ul>li:hover{
 .body-section1-left-bottom{
     display: flex;
     justify-content: space-between;
+    padding: 15px 0;
 }
 
 .body-section1-left-bottom-1>ul{
     display: flex;
     list-style: none;
-    gap: 10px;
-    color: #525151;
+    gap: 15px;
+    color: #727272;
+    align-items: center;
+}
+
+.body-section1-left-bottom-2>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #727272;
+    align-items: center;
+}
+
+.body-section1-left-bottom-1>ul>li{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.body-section1-right {
+    width: 232px;;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.body-section1-left{
+    width: 430px;
+}
+
+.section1{
+    border-bottom: rgb(230, 230, 230) solid 1px;
 }
