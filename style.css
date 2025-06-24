@@ -63,8 +63,20 @@ header{
     gap: 5px;
     align-items: center;
     color: #7a7a7a;
+    transition: all 0.5s ease-in-out;
 }
 
+.h-right>svg:hover{
+    transition: color 0.5s ease-in-out;
+    color: #202020;
+    cursor: pointer;
+}
+
+.h-right>span:hover{
+    transition: color 0.5s ease-in-out;
+    color: #202020;
+    cursor: pointer;
+}
 
 article{
     width: 70%;
