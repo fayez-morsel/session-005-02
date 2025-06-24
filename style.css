@@ -192,13 +192,16 @@ aside{
 }
 
 .aside-section1{
-    height: 350px;
+    height: 360px;
     margin-bottom: 25px;
 }
 
+.aside-section2{
+    height: 360px;
+}
 .aside-section1-head{
     font-size: 20px;
-    color: black;
+    color: rgb(20, 20, 20);
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -227,3 +230,32 @@ aside{
     font-weight: 450;
 }
 
+.aside-section1>h3{
+    height: 45px;
+    padding-top: 10px;
+}
+
+.aside-section2-body>div{
+    display: flex;
+}
+ 
+.aside-section2-body>div>p{
+    background-color:#f0f0f0;
+    padding: 14px 16px;
+    border-radius: 25px;
+    color: rgb(34, 34, 34);
+    margin: 5px;
+}
+
+.aside-section2>h3>a{
+    text-decoration: none;
+    color: rgb(22, 134, 22);
+    font-size: 17px;
+    font-weight: 450;
+}
+
+.aside-section2>h3{
+    height: 45px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
