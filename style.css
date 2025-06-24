@@ -102,14 +102,21 @@ nav>ul>li:hover{
     font-size: 14px;
 }
 
+.inn{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
 .ma{
     font-size: 16px;
     color: #525151;
 }
 
 .maa{
-    font-size: 16px;
-    color: #302f2f;
+    font-size: 15px;
+    color: #202020;
+    font-weight: 600;
+
 }
 
 .body-section{
@@ -186,11 +193,37 @@ aside{
 
 .aside-section1{
     height: 350px;
+    margin-bottom: 25px;
 }
 
 .aside-section1-head{
     font-size: 20px;
     color: black;
     font-weight: 600;
-    
+    padding-bottom: 20px;
 }
+
+.aside-section1-div1-up{
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.aside-section1-div1-up>img{
+    border-radius: 50%;
+}
+
+.aside-section1-div1-down{
+    font-size: 13px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+}
+
+.aside-section1>h3>a{
+    text-decoration: none;
+    color: rgb(22, 134, 22);
+    font-size: 17px;
+    font-weight: 450;
+}
+
