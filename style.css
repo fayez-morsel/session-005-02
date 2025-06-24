@@ -5,9 +5,13 @@
     font-family: "Roboto" ,sans-serif;
 }
 
+body{
+    min-width: 1400px;
+}
+
 header{
     width: 100%;
-    height: 50px;
+    height: 65px;
     border-bottom: rgb(230, 230, 230) solid 1px;
     display: flex;
     justify-content:space-between;
@@ -15,20 +19,46 @@ header{
     align-items: center;
 }
 
+.love:hover{
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+
+.blue:hover{
+    color: blue;
+    transition: color 0.3s ease-in-out;
+}
+
 .h-left{
     display: flex;
     gap: 10px;
     position: relative;
-    width: 300px;
+    width: 900px;
+    height: 100%;
+    align-items: center;
     
 }
 
 .h-left>h1{
     padding-bottom: 5px;
     font-family: "lotu";
+    transition: all 0.3s ease-in-out;
+}
+
+.h-left>h1:hover{
+    transition: color 0.3s ease-in-out;
+    color: green;
+    cursor:pointer;
+}
+
+#inp-search:hover{
+    background-color: #aef8a6;
+    width: 500px;
+    height: 45px;
 }
 
 #inp-search{
+    transition: all 0.3s ease-in-out;
     padding-left: 35px;
     margin-top: 5px;
     width: 250px;
@@ -47,8 +77,20 @@ header{
     gap: 5px;
     align-items: center;
     color: #7a7a7a;
+    transition: all 0.5s ease-in-out;
 }
 
+.h-right>svg:hover{
+    transition: color 0.5s ease-in-out;
+    color: #202020;
+    cursor: pointer;
+}
+
+.h-right>span:hover{
+    transition: color 0.5s ease-in-out;
+    color: #202020;
+    cursor: pointer;
+}
 
 article{
     width: 70%;
@@ -110,13 +152,26 @@ nav>ul>li:hover{
 .ma{
     font-size: 16px;
     color: #525151;
+    transition: all 0.3s ease-in;
+}
+
+.ma:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
 }
 
 .maa{
     font-size: 15px;
     color: #202020;
     font-weight: 600;
+    transition: all 0.3s ease-in;
+}
 
+.maa:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
 }
 
 .body-section{
@@ -129,12 +184,23 @@ nav>ul>li:hover{
     padding-bottom: 5px;
     font-weight: 700;
     color: #302f2f;
-   
+    transition: all 0.3s ease;
 }
 
+.of:hover{
+    transform: scale(1.1);
+    color: orangered;
+    transition: all 0.3s ease;
+}
 .or{
     color: #7a7a7a;
     padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.or:hover{
+    transition: all 0.3s ease;
+    color: red;
 }
 
 .body-section1-left-bottom{
@@ -228,6 +294,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section1>h3>a:hover{
+    color: blue;
 }
 
 .aside-section1>h3{
@@ -252,6 +323,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section2>h3>a:hover{
+    color: blue;
 }
 
 .aside-section3>h3>a{
@@ -259,6 +335,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section3>h3>a:hover{
+    color: blue;
 }
 
 .aside-section2>h3{
@@ -323,7 +404,7 @@ aside{
 
 #rec{
     height: 90px;
-    padding-top: 40px;
+    padding-top: 45px;
 }
 
 #rec-img{
