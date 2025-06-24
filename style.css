@@ -320,3 +320,13 @@ aside{
 .i3{
     margin-left: 20px;
 }
+
+#rec{
+    height: 90px;
+    padding-top: 40px;
+}
+
+#rec-img{
+    border-radius: 5px;
+
+}
