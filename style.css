@@ -152,13 +152,26 @@ nav>ul>li:hover{
 .ma{
     font-size: 16px;
     color: #525151;
+    transition: all 0.3s ease-in;
+}
+
+.ma:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
 }
 
 .maa{
     font-size: 15px;
     color: #202020;
     font-weight: 600;
+    transition: all 0.3s ease-in;
+}
 
+.maa:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
 }
 
 .body-section{
@@ -281,6 +294,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section1>h3>a:hover{
+    color: blue;
 }
 
 .aside-section1>h3{
@@ -305,6 +323,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section2>h3>a:hover{
+    color: blue;
 }
 
 .aside-section3>h3>a{
@@ -312,6 +335,11 @@ aside{
     color: rgb(22, 134, 22);
     font-size: 17px;
     font-weight: 450;
+    transition: all 0.3s ease;
+}
+
+.aside-section3>h3>a:hover{
+    color: blue;
 }
 
 .aside-section2>h3{
