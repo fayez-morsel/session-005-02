@@ -5,6 +5,10 @@
     font-family: "Roboto" ,sans-serif;
 }
 
+body{
+    min-width: 1400px;
+}
+
 header{
     width: 100%;
     height: 65px;
@@ -13,6 +17,16 @@ header{
     justify-content:space-between;
     padding: 0 20px;
     align-items: center;
+}
+
+.love:hover{
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+
+.blue:hover{
+    color: blue;
+    transition: color 0.3s ease-in-out;
 }
 
 .h-left{
