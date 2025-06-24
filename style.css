@@ -7,7 +7,7 @@
 
 header{
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-bottom: rgb(230, 230, 230) solid 1px;
     display: flex;
     justify-content:space-between;
@@ -26,7 +26,15 @@ header{
 .h-left>h1{
     padding-bottom: 5px;
     font-family: "lotu";
+    transition: all 0.3s ease-in-out;
 }
+
+.h-left>h1:hover{
+    transition: color 0.3s ease-in-out;
+    color: green;
+    cursor:pointer;
+}
+
 
 #inp-search{
     padding-left: 35px;
@@ -323,7 +331,7 @@ aside{
 
 #rec{
     height: 90px;
-    padding-top: 40px;
+    padding-top: 45px;
 }
 
 #rec-img{
