@@ -355,6 +355,14 @@ aside{
     margin-right: 25px;
 }
 
+.aside-section3-div1-img{
+    transition: transform 0.5s ease;
+}
+
+.aside-section3-div1-img:hover{
+    transform: rotate(360deg);
+}
+
 .aside-section3-div1{
     display: flex;
     width: 480px;
@@ -435,3 +443,4 @@ aside{
 .f1>button{
     transition: all 0.5s ease ;
 }
+
