@@ -417,3 +417,8 @@ aside{
     transition: all 0.3s ease;
     transform: scale(1.05);
 }
+
+.aside-section2-body>div>p:hover{
+    transition: all 0.3s ease ;
+    background-color: greenyellow;
+}
