@@ -411,3 +411,9 @@ aside{
     border-radius: 5px;
 
 }
+
+.body-section1-left-bottom-2>ul>li:hover{
+    color: black;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
