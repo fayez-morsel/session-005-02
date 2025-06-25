@@ -316,6 +316,11 @@ aside{
     border-radius: 25px;
     color: rgb(34, 34, 34);
     margin: 5px;
+    transition: transform 0.6s;
+}
+
+.aside-section2-body>div>p:hover{
+    transform: rotate(45deg);
 }
 
 .aside-section2>h3>a{
