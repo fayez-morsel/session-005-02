@@ -357,7 +357,7 @@ aside{
 
 .aside-section3-div1{
     display: flex;
-    width: 380px;
+    width: 480px;
     margin-bottom: 25px;
 }
 
@@ -410,4 +410,28 @@ aside{
 #rec-img{
     border-radius: 5px;
 
+}
+
+.body-section1-left-bottom-2>ul>li:hover{
+    color: black;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.aside-section2-body>div>p:hover{
+    transition: all 0.3s ease ;
+    background-color: greenyellow;
+}
+
+.f1>button:hover{
+    width: 90px;
+    height: 40px;
+    transition: all 0.5s ease ;
+    transform: scale(1.1);
+    background-color: #202020;
+    color: #f0f0f0;
+}
+
+.f1>button{
+    transition: all 0.5s ease ;
 }
